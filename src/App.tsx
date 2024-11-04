@@ -1,15 +1,3 @@
-// import React from 'react';
-// import "./App.scss"
-
-// export default function App() {
-//   return (
-//     <div>
-//       <h1>Gestor de Bebê</h1>
-//       <p>Bem-vindo ao app gestor de bebê!</p>
-//     </div>
-//   );
-// }
-
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './views/Home';
