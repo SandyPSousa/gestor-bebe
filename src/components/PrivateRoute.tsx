@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 
 const PrivateRoute = ({ children }: { children: JSX.Element }) => {
-  const isAuthenticated = false; // Aqui você pode usar o estado de autenticação real
+  const isAuthenticated = false; 
   return isAuthenticated ? children : <Navigate to="/signin" />;
 };
 
